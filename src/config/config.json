@@ -1,0 +1,39 @@
+{
+  "default": {},
+  "development": {
+    "MongoURI": "",
+    "port": 3000,
+    "jwt": {
+        "seed_auth": "este-es-el-seed-desarrollo",
+        "expire_token": "48h"
+    },
+    "urlApp": "https://socialuix.appspot.com",
+    "smtp": {
+        "host": "smtp.gmail.com",
+        "port": 587,
+        "secure": false,
+        "auth": {
+            "user": "luismera92@gmail.com",
+            "pass": ""
+        }
+    }
+  },
+  "production": {
+      "MongoURI": "",
+      "port": 8080,
+      "jwt": {
+          "seed_auth": "5o3oaXzXYCuic0PJkN06zP35X",
+          "expire_token": "48h"
+      },
+      "urlApp": "https://socialuix.appspot.com",
+      "smtp": {
+          "host": "smtp.gmail.com",
+          "port": 587,
+          "secure": false,
+          "auth": {
+              "user": "luismera92@gmail.com",
+              "pass": ""
+          }
+      }
+  }
+}
